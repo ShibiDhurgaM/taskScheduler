@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&disp
+lay=swap" rel="stylesheet">
+
+    <title>Task Scheduler</title>
+</head>
+<body id="bd">
+    <div class="container">
+        <div class="head"><h1><b><i>TASK SCHEDULER</i></b></h1></div>
+        <div id="taskscheduler">
+            <div id="result" class="result"></div>
+            <button  onclick="getSummary()" class="myButton"><b>GET_TASK_SUMMARY</b></button>
+            <button  onclick="CompletionStatus()"  class="myButton" ><b>COMPLETION_STATUS</b></button>
+            <button onclick="addTask()" class="myButton" ><b>ADD_A_TASK </b></button>
+            <button  onclick="deleteTask()" class="myButton"><b>DELETING_TASK</b></button>
+            <button   onclick="addTaskInfront()" class="myButton"><b>ADD_TASK_AT_FRONT</b></button>
+            <button  onclick="deleteFirstTask()" class="myButton"><b>DELETING_TASK_AT_FRONT</b></button>
+            <button  onclick="saveTask()" class="myButton"><b>SAVE_TASK</b></button>
+            
+    </div>
+    </div>
+   <script src="index.js"></script>
+</body>
+</html>

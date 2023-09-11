@@ -1,0 +1,44 @@
+.container{
+    background-image: url('images/img7.jpg');
+    background-size: cover;
+    background-position: center ;
+    height: 100vh;
+    background-repeat: inherit;
+    font-family: 'Cinzel Decorative', cursive;
+    }
+    .head{
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 300%;
+    font-weight: bolder;
+    text-decoration:dotted;
+    color: rgb(176, 224, 214);
+  
+    
+    
+    }
+    .myButton{
+ 
+    background-color:rgb(255, 179, 179);
+    border:rgb(219, 177, 177);
+    font-family:'Times New Roman', Times, serif;
+    color:rgba(2, 28, 34, 0.973);
+    padding: 12px;
+    text-align: center;
+    text-decoration:dotted;
+    position:relative;
+ 
+    font-size: 16px;
+    border-radius: 50px;
+    display:flex;
+    margin-bottom: 20px;
+    }
+  
+   
+    .myButton:hover{background-color:#fffdfd}
+    .myButton:active{
+    background-color:#002ca369;
+    box-shadow: 0 5px #002ca369;
+    transform: translateY(4px);
+    font-family: 'Cinzel Decorative', cursive;
+    }
